@@ -1,4 +1,30 @@
-# Getting Started with Create React App
+# Candidates Shortlisting Dashboard
+## Hosted Link:- https://candidates-dashboard-altworld.vercel.app/
+
+This is a web application that allows users to view a list of candidates, shortlist candidates, and display details of the shortlisted candidates. The app is built using React and utilizes Tailwind CSS for styling.
+
+## Features
+
+- View a list of candidates with basic information.
+- Shortlist candidates to save their details.
+- Display detailed information of shortlisted candidates.
+
+ ## Usage
+### View Candidates:
+- Upon launching the application, you will see a table displaying a list of candidates fetched from a mock API.
+- Each candidate row includes basic information like name and email.
+- Click the "Shortlist" button next to a candidate to add them to the shortlisted candidates list.
+### Shortlist Candidates:
+- Clicking the "Shortlist" button triggers an action that saves the candidate's details to the shortlisted candidates list.
+- The shortlisted candidates are displayed in the right-hand section of the dashboard.
+### View Candidate Details:
+- Detailed information of shortlisted candidates is displayed in the right-hand section of the dashboard.
+- Details include answers to specific questions provided by each candidate.
+  ### Technologies Used
+- React.js
+- Tailwind CSS
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
